@@ -1,0 +1,29 @@
+
+/* reset the page so that we can set up the page for full width  use */
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    min-height: 100vh;
+    background-color: red;
+
+ }
+
+ #container {
+    display: grid;
+    grid-template-columns: repeat(16,30px);
+    grid-template-rows: repeat(16, 30px);
+    width: 50%;
+    margin: 0 auto;
+ }
+
+ .grid {
+     background-color: white;
+ }
+
+ .grid:hover {
+     background-color: black;
+ }
