@@ -9,15 +9,15 @@
 body { 
     min-height: 100vh;
     background-color: red;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
  }
+
 
  #container {
     display: grid;
-    grid-template-columns: repeat(16,30px);
-    grid-template-rows: repeat(16, 30px);
-    width: 50%;
-    margin: 0 auto;
  }
 
  .grid {
@@ -26,4 +26,10 @@ body {
 
  .grid:hover {
      background-color: black;
+ }
+
+ button {
+    margin-top: 20px;
+    font-size: 1.25rem;
+    padding: 5px;
  }
